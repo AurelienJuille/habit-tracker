@@ -100,6 +100,7 @@ class HabitFormPageState extends State<HabitFormPage> {
           crossAxisAlignment: CrossAxisAlignment.center,
           children: [
             TextField(
+              textCapitalization: TextCapitalization.sentences,
               controller: _nameController,
               decoration: InputDecoration(labelText: 'Nom'),
               onChanged: (value) {
@@ -107,6 +108,7 @@ class HabitFormPageState extends State<HabitFormPage> {
               },
             ),
             TextField(
+              textCapitalization: TextCapitalization.sentences,
               controller: _descriptionController,
               decoration: InputDecoration(labelText: 'Description'),
             ),
