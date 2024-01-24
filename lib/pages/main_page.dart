@@ -4,6 +4,8 @@ import 'package:habit_tracker_app/main.dart';
 import 'package:habit_tracker_app/pages/habit_form_page.dart';
 import 'package:provider/provider.dart';
 
+// TODO : Système de routines : un groupe d'habit. Une card qui montre le calendrier cumulé des habits dans la routine, et quand on clique sur la carte ça nous emmène vers une page où on peut valider les habits de la routine
+
 class MainPage extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
