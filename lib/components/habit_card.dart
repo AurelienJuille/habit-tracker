@@ -187,7 +187,7 @@ class HabitCardTopBar extends StatelessWidget {
               onPressed: () {
                 habitsProvider.toggleShowCalendar(habit);
               },
-              icon: Icon(Icons.arrow_drop_down_rounded),
+              icon: habit.showCalendar ? Icon(Icons.arrow_drop_up_rounded) : Icon(Icons.arrow_drop_down_rounded),
             ),
           ],
         ),
