@@ -1,5 +1,3 @@
-import 'dart:developer';
-
 import 'package:flutter/material.dart';
 import 'package:habit_tracker_app/main.dart';
 import 'package:habit_tracker_app/pages/habit_form_page.dart';
