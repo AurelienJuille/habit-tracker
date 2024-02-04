@@ -79,7 +79,6 @@ class HabitCard extends StatelessWidget {
               );
             },
           );
-          log(confirmed.toString());
           return confirmed;
         } else {
           Navigator.push(
